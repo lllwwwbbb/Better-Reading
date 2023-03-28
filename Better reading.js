@@ -20,7 +20,7 @@
     }, {
         match: /www\.zhihu\.com/,
         children: [{
-            selector: '.Topstory-container,.Question-main,.QuestionHeader-content',
+            selector: '.Topstory-container,.Question-main,.QuestionHeader-content,.AuthorInfo',
             style: {
                 maxWidth: '100%',
                 width: '100%',
